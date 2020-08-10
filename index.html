@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/fffe8414d4.js" crossorigin="anonymous"></script>
     <title>Product Landing Page</title>
   </head>
   <body>
@@ -22,30 +23,81 @@
       </figure>
       <nav id="nav-bar">
         <ul>
-          <li class="nav-link"><a href="#">features</a></li>
-          <li class="nav-link"><a href="#">how it works</a></li>
-          <li class="nav-link"><a href="#">pricing</a></li>
+          <li class="nav-link"><a class="nav-link-a" href="#">features</a></li>
+          <li class="nav-link"><a class="nav-link-a" href="#">how it works</a></li>
+          <li class="nav-link"><a class="nav-link-a" href="#">pricing</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <iframe
-        id="video"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/YVkuyOy_OZA"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <form
-        id="form"
-        action="https://www.freecodecamp.com/email-submit"
-        method="POST"
-      >
-        <input type="email" placeholder="Enter your email" name="" id="email" />
-        <input type="submit" value="Get started" id="submit" />
-      </form>
+    <main class="main-content">
+      <div class="div-first">
+        <h2>Online education platform for all</h2>
+      </div>
+      <article class="art-features">
+        <section>
+          <i class="fas fa-university"></i>
+          <h2>hagjs</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ab dolorem sapiente aliquam odit esse.</p>
+        </section>
+        <section>
+          <i class="fas fa-clock"></i>
+          <h2>hagjs</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ab dolorem sapiente aliquam odit esse.</p>
+        </section>
+        <section>
+          <i class="fas fa-balance-scale"></i>
+          <h2>hagjs</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ab dolorem sapiente aliquam odit esse.</p>
+        </section>
+      </article class="art-features">
+      <section class="sect-vid">
+        <h2>This is video section</h2>
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/YVkuyOy_OZA"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <article class="art-price">
+        <section>
+          <h3>One time payment</h3>
+          <h2>$299</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur nam facilis a laudantium. Eos doloribus totam quibusdam quasi esse possimus!</p>
+          <button class="cta-price">buy now</button>
+        </section>
+        <section>
+          <h3>Yearly payment</h3>
+          <h2>$149</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur nam facilis a laudantium. Eos doloribus totam quibusdam quasi esse possimus!</p>
+          <button class="cta-price">buy now</button>
+        </section>
+        <section>
+          <h3>Monthly payment</h3>
+          <h2>$299</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur nam facilis a laudantium. Eos doloribus totam quibusdam quasi esse possimus!</p>
+          <button class="cta-price">buy now</button>
+        </section>
+      </article>
+      <section class="sect-form">
+        <h2>Stay in touch with us</h2>
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="POST"
+        >
+          <input
+            type="email"
+            placeholder="Enter your email"
+            name=""
+            id="email"
+          />
+          <input type="submit" value="Get started" id="submit" />
+        </form>
+      </section>
     </main>
     <footer>
       <nav>
@@ -55,6 +107,9 @@
           <li><a href="#">contact</a></li>
         </ul>
       </nav>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
       <p>Copyright 2020, Mentor Academy</p>
     </footer>
   </body>
