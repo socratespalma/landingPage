@@ -184,10 +184,41 @@ input[type="submit"] {
 footer {
   background-color: var(--raisinblack);
   margin-top: 0.9vh;
+  /* margin: 0.9vh 6vw 0; */
+  padding: 2vh 2vw;
+  text-align: end;
 }
+
+footer li {
+  display: inline-block;
+  padding: 0 2vw;
+  text-transform: capitalize;
+  /* background-color: red; */
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer i {
+  padding: 0 1vw;
+  font-size: 1.2rem;
+}
+
+/* footer i,
+footer p {
+  padding: 1vh 0;
+} */
 
 footer p,
 footer i,
 footer a {
   color: var(--mintcream);
+}
+
+.footer-down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vh;
+  padding: 0 2vw;
 }
