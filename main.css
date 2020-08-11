@@ -44,13 +44,14 @@ body {
   top: 0;
   position: fixed;
   z-index: 10;
-  background-color: hotpink;
+  background-color: #fff;
 }
 
 .nav-link {
   list-style: none;
   display: inline-block;
   padding: 0 2vw;
+  font-weight: 500;
 }
 
 .nav-link-a {
@@ -66,4 +67,127 @@ body {
 
 .main-content {
   padding-top: 10vh;
+}
+
+.div-first {
+  text-align: center;
+  background-color: var(--glaucous);
+  padding: 5vh 0;
+}
+
+.div-first h2 {
+  color: var(--mintcream);
+}
+
+.art-features {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--powterblue);
+  margin-top: 0.9vh;
+  /* align-items: center; */
+}
+
+.art-features section {
+  max-width: 25vw;
+  text-align: center;
+  padding: 6vh 0;
+  /* vertical-align: top; */
+}
+
+.art-features section i {
+  font-size: 2rem;
+}
+
+.art-features section h2 {
+  margin: 1.6vh 0;
+}
+
+.sect-vid {
+  background-color: var(--prusianblue);
+  text-align: center;
+  margin-top: 0.9vh;
+  padding: 6vh 0;
+}
+
+.sect-vid h2 {
+  color: var(--mintcream);
+  margin-bottom: 3vh;
+}
+
+.art-price {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.9vh;
+  padding: 6vh 0;
+  background-color: var(--mintcream);
+}
+
+.art-price section {
+  border: 1px solid var(--raisinblack);
+  max-width: 25vw;
+  text-align: center;
+  padding: 33px;
+}
+
+.art-price section h2,
+.art-price section p,
+.cta-price {
+  margin-top: 1.3vh;
+}
+
+.cta-price {
+  background-color: var(--glaucous);
+  color: var(--mintcream);
+  border: 1px solid var(--raisinblack);
+  border-radius: 6px;
+  padding: 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sect-form {
+  background-color: var(--glaucous);
+  text-align: center;
+  margin-top: 0.9vh;
+  padding: 6vh 0;
+}
+
+.sect-form h2 {
+  margin-bottom: 3vh;
+}
+
+input[type="email"] {
+  padding: 10px;
+  width: 330px;
+  /* border-radius: 6px; */
+  border: 1px solid var(--raisinblack);
+  font-weight: 500;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  text-transform: capitalize;
+  /* border-radius: 6px; */
+  border: 1px solid var(--raisinblack);
+  background-color: var(--prusianblue);
+  color: var(--mintcream);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: var(--raisinblack);
+  margin-top: 0.9vh;
+}
+
+footer p,
+footer i,
+footer a {
+  color: var(--mintcream);
 }
